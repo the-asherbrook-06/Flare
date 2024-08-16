@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/css/base.css">
+    <link rel="stylesheet" href="../static/cdn/materialDesign.css">
+    {% include "cdn/materialDesign.html" %}
+    {% block title %}{% endblock %}
+</head>
+
+<body>
+    <div id="navigation">
+        <div class="top">
+            <a class="button ripple primary" href="/compose">
+                <span class="material-symbols-outlined">edit</span>
+                <div>&nbsp; Compose</div>
+                <md-ripple></md-ripple>
+            </a>
+            <a class="button ripple secondary" href="/home">
+                <span class="material-symbols-outlined">local_fire_department</span>
+                <div>&nbsp; Home</div>
+                <md-ripple></md-ripple>
+            </a>
+            <a class="button ripple secondary" href="/profile">
+                <span class="material-symbols-outlined">person</span>
+                <div>&nbsp; Profile</div>
+                <md-ripple></md-ripple>
+            </a>
+        </div>
+    </div>
+    <div id="content">
+        {% block content %}{% endblock %}
+    </div>
+</body>
+
+</html>

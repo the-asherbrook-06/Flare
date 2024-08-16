@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+
+{% block title %}
+<title>Flare | Error 404</title>
+<link rel="stylesheet" href="../static/css/404.css">
+{% endblock %}
+
+{% block content %}
+    <div id="Error404">
+        <div class="icon"><span class="material-symbols-outlined">error</span></div>
+        <div class="heading">ERROR 404</div>
+        <div></div>
+        <div class="context">Ouch! The Page you are looking for doesn't exists.</div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <a class="button ripple" href="/home" autofocus>Home <md-ripple></md-ripple></a>
+    </div>
+    <script src="../static/js/404.js"></script>
+{% endblock %}
