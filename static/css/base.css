@@ -19,7 +19,7 @@ body {
 
 #navigation .top {
     width: 100%;
-    margin-top: 30px;
+    margin-top: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -68,4 +68,54 @@ body {
     margin: 5px;
     border-radius: 25px;
     position: relative;
+}
+
+#content .top {
+    box-sizing: border-box;
+    width: 98%;
+    margin: 1%;
+    height: 50px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    background-color: var(--md-sys-color-surface-container-high);
+    color: var(--md-sys-color-on-surface);
+    border-radius: 20px;
+}
+
+#content .top .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#content .top .search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#content .top .search .button {
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    margin: 5px;
+    background-color: var(--md-sys-color-surface-container-highest);
+    color: var(--md-sys-color-on-surface);
+}
+
+#content .top .search .input {
+    width: 300px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    box-sizing: border-box;
+    padding: 10px;
+    background-color: var(--md-sys-color-surface-container-highest);
+    color: var(--md-sys-color-on-surface);
 }

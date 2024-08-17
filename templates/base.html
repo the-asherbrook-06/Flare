@@ -31,6 +31,18 @@
         </div>
     </div>
     <div id="content">
+        <div class="top">
+            <div class="logo">
+                <span class="material-symbols-outlined">local_fire_department</span>&nbsp; Flare
+            </div>
+            <form class="search" action="/search/submit" method="post">
+                <button class="button ripple" type="submit">
+                    <span class="material-symbols-outlined">search</span>
+                    <md-ripple></md-ripple>
+                </button>
+                <input class="input" type="text" placeholder="Search">
+            </form>
+        </div>
         {% block content %}{% endblock %}
     </div>
 </body>

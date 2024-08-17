@@ -6,6 +6,9 @@ app = Flask(__name__)
 def _404Error(e):
     return render_template('404.html')
 
+@app.route("/search/submit", methods= ["GET", "POST"])
+def searchSubmit():
+    return redirect(url_for("home"))
 
 @app.route("/")
 def base():

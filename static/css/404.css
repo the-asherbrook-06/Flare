@@ -3,8 +3,8 @@
     top: 50%;
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
-    width: 550px;
-    height: 200px;
+    width: fit-content;
+    height: fit-content;
     border-radius: 30px;
     box-sizing: border-box;
     padding: 30px;
@@ -25,7 +25,7 @@
     display: flex;
     align-items: center;
     justify-content: left;
-    font-size: x-large;
+    font-size: large;
     grid-column: span 3;
 }
 
@@ -42,13 +42,8 @@
     height: 90%;
     border-radius: 30px;
     text-decoration: none;
-    color: var(--md-sys-color-error-container);
+    color: var(--md-sys-color-on-error);
     outline: none;
-    border: 1px var(--md-sys-color-error-container) solid;
-    transition: all 0.3s ease;
-}
-
-#Error404 .button:hover {
-    background-color: var(--md-sys-color-error-container);
-    color: var(--md-sys-color-on-error-container)
+    border: 1px var(--md-sys-color-on-error) solid;
+    transition: all 0.2s ease;
 }
