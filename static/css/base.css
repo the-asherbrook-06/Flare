@@ -67,14 +67,14 @@ body {
 #content {
     background-color: var(--md-sys-color-surface-container-low);
     margin: 5px;
-    border-radius: 25px;
+    border-radius: 30px;
     position: relative;
 }
 
 #content .top {
     box-sizing: border-box;
-    width: 98%;
-    margin: 1%;
+    width: 99%;
+    margin: 0.5%;
     height: 50px;
     padding: 10px;
     display: flex;
@@ -83,7 +83,7 @@ body {
     position: sticky;
     background-color: var(--md-sys-color-surface-container-high);
     color: var(--md-sys-color-on-surface);
-    border-radius: 20px;
+    border-radius: 25px;
 }
 
 #content .top .logo {
@@ -102,9 +102,9 @@ body {
     width: 40px;
     height: 40px;
     border: none;
-    border-radius: 10px;
+    border-radius: 25px;
     outline: none;
-    margin: 5px;
+    margin: 3px;
     background-color: var(--md-sys-color-surface-container-highest);
     color: var(--md-sys-color-on-surface);
 }
@@ -113,7 +113,7 @@ body {
     width: 300px;
     height: 40px;
     border: none;
-    border-radius: 10px;
+    border-radius: 25px;
     outline: none;
     box-sizing: border-box;
     padding: 10px;
